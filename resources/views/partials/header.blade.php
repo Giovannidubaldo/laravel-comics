@@ -7,9 +7,7 @@
             <div class="col-8">
                 <ul class="list-unstyled d-flex justify-content-center">
                     <li>
-                        <a href="{{ route('homepage') }}"
-                            class="nav-link {{ Route::currentRouteName() === 'hompeage' ? 'text-primary' : '' }}">home
-                        </a>
+                        <a href="{{ route('homepage') }}">home</a>
                     </li>
                     <li><a href="#">comics</a></li>
                     <li><a href="#">movies</a></li>
@@ -19,7 +17,7 @@
                     <li><a href="#">videos</a></li>
                     <li><a href="#">fans</a></li>
                     <li><a href="#">news</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                    <li class="nav-item dropdown"><a class="dropdown-toggle" href="#" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">shop</a></li>
                 </ul>
             </div>

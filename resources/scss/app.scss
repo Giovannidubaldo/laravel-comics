@@ -13,11 +13,18 @@ header {
     ul {
         li {
             text-transform: uppercase;
-            margin-left: 20px;
+            padding: 20px;
 
             a {
                 text-decoration: none;
                 color: black;
+                padding-bottom: 50px;
+
+                &:hover,
+                &.active {
+                    color: #0C7CEC;
+                    border-bottom: 3px solid #0C7CEC;
+                }
             }
         }
     }
