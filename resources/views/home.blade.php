@@ -16,10 +16,15 @@
 </head>
 
 <body>
+    {{-- HEADER --}}
     @include('partials.header')
+
+    {{-- MAIN --}}
     <main>
         <div class="jumbotron"></div>
     </main>
+
+    {{-- FOOTER --}}
     @include('partials.footer')
 </body>
 
