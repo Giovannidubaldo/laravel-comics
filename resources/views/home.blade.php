@@ -22,6 +22,16 @@
     {{-- MAIN --}}
     <main>
         <div class="jumbotron"></div>
+        <div class="container">
+            <div class="row">
+                @foreach ($comics as $comic)
+                    <div class="col-2">
+                        <img src="{{ $comic['thumb'] }}" alt="" class="img-fluid">
+                        <h6 class="text-uppercase mt-3">{{ $comic['series'] }}</h6>
+                    </div>
+                @endforeach
+            </div>
+        </div>
     </main>
 
     {{-- FOOTER --}}
