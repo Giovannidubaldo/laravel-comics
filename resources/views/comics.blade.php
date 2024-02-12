@@ -22,7 +22,7 @@
     {{-- MAIN --}}
     <main>
 
-
+        <h2 class="text-center p-5">Work in progress...</h2>
 
         <!-- Bottom - main -->
         <div class="bottom-main">
