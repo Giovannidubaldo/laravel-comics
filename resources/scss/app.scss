@@ -29,6 +29,17 @@ main {
         background-image: url('../images/jumbotron.jpg');
         height: 400px;
     }
+
+    .comics-main {
+        background-color: rgb(52, 52, 52);
+        padding: 50px;
+
+        img {
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
 }
 
 // FOOTER
