@@ -8,4 +8,16 @@
 
 header {
     padding: 10px;
+
+    ul {
+        li {
+            text-transform: uppercase;
+            margin-left: 20px;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
 }
