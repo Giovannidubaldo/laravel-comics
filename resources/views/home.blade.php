@@ -33,6 +33,9 @@
                     @endforeach
                 </div>
             </div>
+            <div class="buttons d-flex justify-content-center mt-5">
+                <button>Load More</button>
+            </div>
         </div>
     </main>
 

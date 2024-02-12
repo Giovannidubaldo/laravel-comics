@@ -39,6 +39,14 @@ main {
             width: 100%;
             object-fit: cover;
         }
+
+        button {
+            background-color: #0C7CEC;
+            color: white;
+            border-style: none;
+            width: 200px;
+            padding: 10px;
+        }
     }
 }
 
