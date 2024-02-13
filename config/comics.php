@@ -9,7 +9,7 @@ return [
         "price" => "$19.99",
         "series" => "Action Comics",
         "sale_date" => "2018-10-02",
-        "type" => "comic book",
+        "type" => "Comic book",
     ],
     [
         "id" => 2,
@@ -19,7 +19,7 @@ return [
         "price" => "$3.99",
         "series" => "American Vampire 1976",
         "sale_date" => "2020-10-06",
-        "type" => "comic book",
+        "type" => "Comic book",
     ],
     [
         "id" => 3,
@@ -29,7 +29,7 @@ return [
         "price" => "$16.99",
         "series" => "Aquaman",
         "sale_date" => "2018-01-24",
-        "type" => "graphic novel",
+        "type" => "Graphic novel",
     ],
     [
         "id" => 4,
@@ -39,7 +39,7 @@ return [
         "price" => "$2.99",
         "series" => "Batgirl",
         "sale_date" => "2016-07-27",
-        "type" => "comic book",
+        "type" => "Comic book",
     ],
     [
         "id" => 5,
@@ -49,7 +49,7 @@ return [
         "price" => "$3.99",
         "series" => "Batman",
         "sale_date" => "2018-10-03",
-        "type" => "comic book",
+        "type" => "Comic book",
     ],
     [
         "id" => 6,
@@ -59,7 +59,7 @@ return [
         "price" => "$2.99",
         "series" => "Batman Beyond",
         "sale_date" => "2016-10-26",
-        "type" => "comic book",
+        "type" => "Comic book",
     ],
     [
         "id" => 7,
@@ -69,7 +69,7 @@ return [
         "price" => "$3.99",
         "series" => "Batman/Superman",
         "sale_date" => "2019-08-28",
-        "type" => "comic book",
+        "type" => "Comic book",
     ],
     [
         "id" => 8,
@@ -79,7 +79,7 @@ return [
         "price" => "$4.99",
         "series" => "Batman/Superman Annual",
         "sale_date" => "2020-09-29",
-        "type" => "comic book",
+        "type" => "Comic book",
     ],
     [
         "id" => 9,
@@ -89,7 +89,7 @@ return [
         "price" => "$5.99",
         "series" => "Batman: The Joker War Zone",
         "sale_date" => "2020-09-29",
-        "type" => "comic book",
+        "type" => "Comic book",
     ],
     [
         "id" => 10,
@@ -99,7 +99,7 @@ return [
         "price" => "$6.99",
         "series" => "Batman: Three Jokers",
         "sale_date" => "2020-08-25",
-        "type" => "comic book",
+        "type" => "Comic book",
     ],
     [
         "id" => 11,
@@ -109,7 +109,7 @@ return [
         "price" => "$4.99",
         "series" => "Batman: White Knight Presents: Harley Quinn",
         "sale_date" => "2020-10-20",
-        "type" => "comic book",
+        "type" => "Comic book",
     ],
     [
         "id" => 12,
@@ -119,6 +119,6 @@ return [
         "price" => "$16.99",
         "series" => "Catwoman",
         "sale_date" => "2019-04-10",
-        "type" => "graphic novel",
+        "type" => "Graphic novel",
     ]
 ];

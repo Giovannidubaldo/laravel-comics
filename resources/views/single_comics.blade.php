@@ -46,6 +46,44 @@
         </div>
     </div>
 
+    <!-- Contenitore informazioni singolo fumetto -->
+    <div class="bg-grey">
+        <div class="my-container">
+            <div class="row">
+                <div class="col-6 my-5">
+                    <h3>Talent</h3>
+                    <ul class="list-unstyled mt-4">
+                        <li class="d-flex justify-content-between">
+                            <span>Title:</span>
+                            <span class="me-4 color-blue">{{ $single_comics['title'] }}</span>
+                        </li>
+                        <li class="d-flex justify-content-between">
+                            <span>Type:</span>
+                            <span class="me-4 color-blue">{{ $single_comics['type'] }}</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 my-5">
+                    <h3>Specs</h3>
+                    <ul class="list-unstyled mt-4">
+                        <li class="d-flex justify-content-between">
+                            <span>Series:</span>
+                            <span class="me-4">{{ $single_comics['series'] }}</span>
+                        </li>
+                        <li class="d-flex justify-content-between">
+                            <span>Price:</span>
+                            <span class="me-4">{{ $single_comics['price'] }}</span>
+                        </li>
+                        <li class="d-flex justify-content-between">
+                            <span>On sale date:</span>
+                            <span class="me-4">{{ $single_comics['sale_date'] }}</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Bottom - main -->
     <div class="bottom-main">
         <div class="container">
