@@ -22,7 +22,14 @@
                 </div>
                 <p class="mt-4">{{ $single_comics['description'] }}</p>
             </div>
-            <div class="col-4 my-5"></div>
+            <div class="col-4">
+                <div class="d-flex justify-content-end">
+                    <span class="text-uppercase">advertisement</span>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <img src="{{ Vite::asset('resources/images/adv.jpg') }}" alt="">
+                </div>
+            </div>
         </div>
     </div>
 
