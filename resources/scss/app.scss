@@ -32,11 +32,14 @@ header {
 
 // MAIN homepage
 main {
+
+    // Jumbotron
     .jumbotron {
         background-image: url('../images/jumbotron.jpg');
         height: 400px;
     }
 
+    // COntenitore tutti i fumetti
     .comics-main {
         background-color: rgb(52, 52, 52);
         padding: 50px;
@@ -56,6 +59,20 @@ main {
         }
     }
 
+    // Pagina singolo fumetto
+    .my-container {
+        width: 1000px;
+        margin: 50px auto;
+
+        .banner {
+            background-color: rgb(48, 114, 48);
+            padding: 5px;
+            color: rgb(196, 196, 196);
+            border: 1px solid grey;
+        }
+    }
+
+    // Contenitore azzurro con immagini e link
     .bottom-main {
         background-color: #0C7CEC;
         padding: 30px 0;
