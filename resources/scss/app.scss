@@ -36,7 +36,22 @@ main {
     // Jumbotron
     .jumbotron {
         background-image: url('../images/jumbotron.jpg');
-        height: 400px;
+        height: 500px;
+        position: relative;
+    }
+
+    .blue-container {
+        background-color: #0C7CEC;
+        height: 80px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+
+        .thumb-comic {
+            width: 200px;
+            position: absolute;
+            bottom: 20px;
+        }
     }
 
     // COntenitore tutti i fumetti

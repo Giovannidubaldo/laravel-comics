@@ -2,13 +2,24 @@
 
 @section('content')
     <!-- Jumbotron -->
-    <div class="jumbotron"></div>
+    <div class="jumbotron">
+        <div class="blue-container">
+            <div class="my-container">
+                <img src="{{ $single_comics['thumb'] }}" alt="" class="thumb-comic">
+            </div>
+        </div>
+    </div>
+
 
     <!-- Contenitore descrizione singolo fumetto -->
     <div class="my-container">
         <div class="row">
+
+            <!-- Titolo -->
             <div class="col-8">
                 <h2>{{ $single_comics['title'] }}</h2>
+
+                <!-- Prezzo e descrizione -->
                 <div class="row mt-4">
                     <div class="col-8 banner">
                         <div class="d-flex justify-content-between align-items-center">
@@ -22,6 +33,8 @@
                 </div>
                 <p class="mt-4">{{ $single_comics['description'] }}</p>
             </div>
+
+            <!-- Adv image -->
             <div class="col-4">
                 <div class="d-flex justify-content-end">
                     <span class="text-uppercase">advertisement</span>
