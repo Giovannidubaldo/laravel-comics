@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 })->name('homepage');
 
+Route::get('/home/{item}', function ($item) {
+    dd($item);
+})->name('single_comics');
+
 Route::get('/comics', function () {
     return view('comics');
 })->name('comics');

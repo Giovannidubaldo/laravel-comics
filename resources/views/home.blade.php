@@ -10,8 +10,10 @@
             <div class="row">
                 @foreach ($comics as $comic)
                     <div class="col-2 mt-4">
-                        <img src="{{ $comic['thumb'] }}" alt="" class="img-fluid">
-                        <h6 class="text-uppercase mt-3 text-white">{{ $comic['series'] }}</h6>
+                        <a href="{{ route('single_comics', ['item' => $comic['id']]) }}">
+                            <img src="{{ $comic['thumb'] }}" alt="" class="img-fluid">
+                            <h6 class="text-uppercase mt-3 text-white">{{ $comic['series'] }}</h6>
+                        </a>
                     </div>
                 @endforeach
             </div>
