@@ -19,7 +19,17 @@ Route::get('/', function () {
 })->name('homepage');
 
 Route::get('/home/{item}', function ($item) {
-    dd($item);
+    $comics = config('comics');
+
+    $single_comics = null;
+
+    foreach ($comics as $comic) {
+        if ($comic['id'] == $item) {
+            $single_comics = $comic;
+        }
+    }
+
+    return view('single_comics', compact('single_comics'));
 })->name('single_comics');
 
 Route::get('/comics', function () {
