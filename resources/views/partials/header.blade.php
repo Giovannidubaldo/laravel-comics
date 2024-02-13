@@ -17,8 +17,11 @@
                     <li><a href="#">videos</a></li>
                     <li><a href="#">fans</a></li>
                     <li><a href="#">news</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">shop</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">shop
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="col-2"></div>
